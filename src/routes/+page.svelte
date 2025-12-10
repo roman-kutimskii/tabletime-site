@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
+	import { resolve, asset } from '$app/paths';
 	import RestaurantForm from '$lib/components/RestaurantForm.svelte';
 </script>
 
@@ -80,7 +80,7 @@
 			<div class="content-media">
 				<div class="media-placeholder">
 					<video
-						src="/videos/tabletime-demo.mp4"
+						src={asset('/videos/tabletime-demo.mp4')}
 						style="width: 100%; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);"
 						autoplay
 						muted

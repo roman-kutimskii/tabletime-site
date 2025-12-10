@@ -1,4 +1,6 @@
-<script lang="ts"></script>
+<script lang="ts">
+	import { asset } from '$app/paths';
+</script>
 
 <svelte:head>
 	<title>О нас - TableTime</title>
@@ -29,7 +31,7 @@
 			</div>
 			<div class="content-media">
 				<div class="media-placeholder">
-					<img src="/images/team.png" alt="О нас" />
+					<img src={asset('/images/team.png')} alt="О нас" />
 				</div>
 			</div>
 		</div>
@@ -86,7 +88,7 @@
 			<div class="team-card">
 				<div class="team-avatar">
 					<div class="media-placeholder" style="border-radius: 50%;">
-						<img src="/images/ceo.png" alt="Роман Кутимский" />
+						<img src={asset('/images/ceo.png')} alt="Роман Кутимский" />
 					</div>
 				</div>
 				<h3>Роман Кутимский</h3>
@@ -96,7 +98,7 @@
 			<div class="team-card">
 				<div class="team-avatar">
 					<div class="media-placeholder" style="border-radius: 50%;">
-						<img src="/images/cto.png" alt="Михаил Орлов" />
+						<img src={asset('/images/cto.png')} alt="Михаил Орлов" />
 					</div>
 				</div>
 				<h3>Михаил Орлов</h3>
@@ -106,7 +108,7 @@
 			<div class="team-card">
 				<div class="team-avatar">
 					<div class="media-placeholder" style="border-radius: 50%;">
-						<img src="/images/business-analyst.png" alt="Елена Гришина" />
+						<img src={asset('/images/business-analyst.png')} alt="Елена Гришина" />
 					</div>
 				</div>
 				<h3>Елена Гришина</h3>
