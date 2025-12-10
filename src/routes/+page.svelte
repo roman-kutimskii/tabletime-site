@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import RestaurantForm from '$lib/components/RestaurantForm.svelte';
 </script>
 
@@ -17,8 +18,8 @@
 			Современный сервис для онлайн-бронирования столиков в ресторанах
 		</p>
 		<div class="hero-actions">
-			<a href="/services" class="btn btn-primary">Узнать больше</a>
-			<a href="/contacts" class="btn btn-outline">Связаться с нами</a>
+			<a href={resolve('/services')} class="btn btn-primary">Узнать больше</a>
+			<a href={resolve('/contacts')} class="btn btn-outline">Связаться с нами</a>
 		</div>
 	</div>
 </section>
@@ -71,7 +72,7 @@
 					Сервис предоставляет ресторанам удобную панель управления бронированиями, аналитику и
 					инструменты продвижения.
 				</p>
-				<a href="/about" class="btn btn-primary">Подробнее о нас</a>
+				<a href={resolve('/about')} class="btn btn-primary">Подробнее о нас</a>
 			</div>
 			<div class="content-media">
 				<div class="media-placeholder">

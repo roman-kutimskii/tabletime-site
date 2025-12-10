@@ -1,4 +1,6 @@
-<script lang="ts"></script>
+<script lang="ts">
+	import { resolve } from '$app/paths';
+</script>
 
 <svelte:head>
 	<title>Услуги - TableTime</title>
@@ -134,7 +136,7 @@
 					<li>Email поддержка</li>
 					<li>Базовые отчеты</li>
 				</ul>
-				<a href="/contacts" class="btn btn-outline">Связаться</a>
+				<a href={resolve('/contacts')} class="btn btn-outline">Связаться</a>
 			</div>
 
 			<div class="card pricing-card featured">
@@ -151,7 +153,7 @@
 					<li>Детальная аналитика</li>
 					<li>Интеграция с сайтом</li>
 				</ul>
-				<a href="/contacts" class="btn btn-primary">Связаться</a>
+				<a href={resolve('/contacts')} class="btn btn-primary">Связаться</a>
 			</div>
 
 			<div class="card pricing-card">
@@ -168,7 +170,7 @@
 					<li>API интеграция</li>
 					<li>Кастомные решения</li>
 				</ul>
-				<a href="/contacts" class="btn btn-outline">Связаться</a>
+				<a href={resolve('/contacts')} class="btn btn-outline">Связаться</a>
 			</div>
 		</div>
 	</div>
@@ -179,7 +181,7 @@
 		<div class="cta-section">
 			<h2>Готовы начать?</h2>
 			<p>Заполните форму заявки, и мы свяжемся с вами для обсуждения условий подключения.</p>
-			<a href="/contacts" class="btn btn-primary btn-large">Подать заявку</a>
+			<a href={resolve('/contacts')} class="btn btn-primary btn-large">Подать заявку</a>
 		</div>
 	</div>
 </section>

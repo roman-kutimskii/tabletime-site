@@ -1,14 +1,15 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { resolve } from '$app/paths';
 	import { onMount } from 'svelte';
 
 	let mobileMenuOpen = $state(false);
 
 	const navItems = [
-		{ href: '/', label: 'Главная' },
-		{ href: '/about', label: 'О нас' },
-		{ href: '/services', label: 'Услуги' },
-		{ href: '/contacts', label: 'Контакты' }
+		{ href: resolve('/'), path: '/', label: 'Главная' },
+		{ href: resolve('/about'), path: '/about', label: 'О нас' },
+		{ href: resolve('/services'), path: '/services', label: 'Услуги' },
+		{ href: resolve('/contacts'), path: '/contacts', label: 'Контакты' }
 	];
 
 	function toggleMobileMenu() {
@@ -29,7 +30,7 @@
 
 <nav class="navbar">
 	<div class="nav-container">
-		<a href="/" class="logo">
+		<a href={resolve('/')} class="logo">
 			<span class="logo-text">TableTime</span>
 		</a>
 
@@ -49,7 +50,7 @@
 				<li>
 					<a
 						href={item.href}
-						class:active={$page.url.pathname === item.href || ($page.url.pathname === '/' && item.href === '/')}
+						class:active={$page.url.pathname === item.path || $page.url.pathname === item.href}
 						onclick={closeMobileMenu}
 					>
 						{item.label}
