@@ -48,9 +48,9 @@
 					<div class="contact-icon">💬</div>
 					<h3>Социальные сети</h3>
 					<div class="social-links">
-						<a href="#" class="social-link">Telegram</a>
-						<a href="#" class="social-link">WhatsApp</a>
-						<a href="#" class="social-link">VK</a>
+						<a href="https://t.me/tabletime" target="_blank" rel="noopener noreferrer" class="social-link">Telegram</a>
+						<a href="https://wa.me/79991234567" target="_blank" rel="noopener noreferrer" class="social-link">WhatsApp</a>
+						<a href="https://vk.com/tabletime" target="_blank" rel="noopener noreferrer" class="social-link">VK</a>
 					</div>
 				</div>
 			</div>

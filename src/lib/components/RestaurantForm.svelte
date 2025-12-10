@@ -210,8 +210,7 @@
 		color: var(--color-error);
 	}
 
-	.form-input.error,
-	.form-textarea.error {
+	.form-input.error {
 		border-color: var(--color-error);
 	}
 
