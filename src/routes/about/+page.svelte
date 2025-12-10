@@ -29,7 +29,7 @@
 			</div>
 			<div class="content-media">
 				<div class="media-placeholder">
-					<span>Изображение офиса или команды</span>
+					<img src="/images/team.png" alt="О нас" />
 				</div>
 			</div>
 		</div>
@@ -85,32 +85,32 @@
 		<div class="grid grid-3">
 			<div class="team-card">
 				<div class="team-avatar">
-					<div class="media-placeholder" style="min-height: 150px; border-radius: 50%">
-						<span>👤</span>
+					<div class="media-placeholder" style="border-radius: 50%;">
+						<img src="/images/ceo.png" alt="Роман Кутимский" />
 					</div>
 				</div>
-				<h3>Иван Иванов</h3>
+				<h3>Роман Кутимский</h3>
 				<p class="team-role">Генеральный директор</p>
-				<p class="text-muted">Основатель компании с 10-летним опытом в ресторанном бизнесе</p>
+				<p class="text-muted">Основатель компании без опыта в ресторанном бизнесе</p>
 			</div>
 			<div class="team-card">
 				<div class="team-avatar">
-					<div class="media-placeholder" style="min-height: 150px; border-radius: 50%">
-						<span>👤</span>
+					<div class="media-placeholder" style="border-radius: 50%;">
+						<img src="/images/cto.png" alt="Михаил Орлов" />
 					</div>
 				</div>
-				<h3>Мария Петрова</h3>
+				<h3>Михаил Орлов</h3>
 				<p class="team-role">Технический директор</p>
 				<p class="text-muted">Эксперт в области разработки веб-приложений и мобильных решений</p>
 			</div>
 			<div class="team-card">
 				<div class="team-avatar">
-					<div class="media-placeholder" style="min-height: 150px; border-radius: 50%">
-						<span>👤</span>
+					<div class="media-placeholder" style="border-radius: 50%;">
+						<img src="/images/business-analyst.png" alt="Елена Гришина" />
 					</div>
 				</div>
-				<h3>Алексей Сидоров</h3>
-				<p class="team-role">Директор по развитию</p>
+				<h3>Елена Гришина</h3>
+				<p class="team-role">Бизнес-аналитик</p>
 				<p class="text-muted">Специалист по работе с партнерами и развитию бизнеса</p>
 			</div>
 		</div>

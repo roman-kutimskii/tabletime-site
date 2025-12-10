@@ -180,7 +180,7 @@
 		}
 
 		.mobile-menu-toggle[aria-expanded='true'] .hamburger-line:nth-child(1) {
-			transform: rotate(45deg) translate(8px, 8px);
+			transform: rotate(45deg) translate(5px, 5px);
 		}
 
 		.mobile-menu-toggle[aria-expanded='true'] .hamburger-line:nth-child(2) {
@@ -188,7 +188,7 @@
 		}
 
 		.mobile-menu-toggle[aria-expanded='true'] .hamburger-line:nth-child(3) {
-			transform: rotate(-45deg) translate(7px, -7px);
+			transform: rotate(-45deg) translate(5px, -5px);
 		}
 	}
 </style>

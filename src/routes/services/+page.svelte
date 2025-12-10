@@ -143,7 +143,7 @@
 				<div class="badge">Популярный</div>
 				<h3>Стандартный</h3>
 				<div class="price">
-					<span class="price-amount">10 000 ₽</span>
+					<span class="price-amount">8 000 ₽</span>
 					<span class="price-period">/месяц</span>
 				</div>
 				<ul class="pricing-features">
@@ -159,7 +159,7 @@
 			<div class="card pricing-card">
 				<h3>Премиум</h3>
 				<div class="price">
-					<span class="price-amount">20 000 ₽</span>
+					<span class="price-amount">12 000 ₽</span>
 					<span class="price-period">/месяц</span>
 				</div>
 				<ul class="pricing-features">

@@ -21,6 +21,6 @@
 
 <footer class="footer">
 	<div class="container">
-		<p>&copy; 2024 ООО "ТейблТайм". Все права защищены.</p>
+		<p>&copy; 2025 ООО "ТейблТайм". Все права защищены.</p>
 	</div>
 </footer>

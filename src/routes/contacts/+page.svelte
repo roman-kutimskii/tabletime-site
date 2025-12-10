@@ -22,15 +22,15 @@
 				<div class="card contact-card">
 					<div class="contact-icon">📍</div>
 					<h3>Адрес</h3>
-					<p>г. Москва, ул. Примерная, д. 1</p>
-					<p class="text-muted">Бизнес-центр "Пример", офис 101</p>
+					<p>г. Йошкар-Ола, ул. Петрова, д. 12А</p>
+					<p class="text-muted">Корпус 2, офис 5</p>
 				</div>
 
 				<div class="card contact-card">
 					<div class="contact-icon">📞</div>
 					<h3>Телефон</h3>
 					<p>
-						<a href="tel:+79991234567">+7 (999) 123-45-67</a>
+						<a href="tel:+793712345657">+7 (937) 123-45-67</a>
 					</p>
 					<p class="text-muted">Пн-Пт: 9:00 - 18:00</p>
 				</div>
@@ -48,9 +48,24 @@
 					<div class="contact-icon">💬</div>
 					<h3>Социальные сети</h3>
 					<div class="social-links">
-						<a href="https://t.me/tabletime" target="_blank" rel="noopener noreferrer" class="social-link">Telegram</a>
-						<a href="https://wa.me/79991234567" target="_blank" rel="noopener noreferrer" class="social-link">WhatsApp</a>
-						<a href="https://vk.com/tabletime" target="_blank" rel="noopener noreferrer" class="social-link">VK</a>
+						<a
+							href="https://t.me"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="social-link">Telegram</a
+						>
+						<a
+							href="https://wa.me"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="social-link">WhatsApp</a
+						>
+						<a
+							href="https://vk.com"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="social-link">VK</a
+						>
 					</div>
 				</div>
 			</div>
@@ -59,8 +74,21 @@
 				<div class="card">
 					<h3>Как нас найти</h3>
 					<div class="map-placeholder">
-						<span>Карта (заглушка)</span>
-						<p class="text-muted">Здесь будет интерактивная карта</p>
+						<div style="position:relative;overflow:hidden;display: flex; flex-direction: column; flex: 1 1 auto;">
+							<a
+								href="https://yandex.ru/maps/41/yoshkar-ola/?utm_medium=mapframe&utm_source=maps"
+								style="color:#eee;font-size:12px;position:absolute;top:0px;">Йошкар‑Ола</a
+							><a
+								href="https://yandex.ru/maps/41/yoshkar-ola/house/ulitsa_petrova_12a/YE4YfwVjTkYAQFtsfXpycH9gZg==/?ll=47.923632%2C56.630940&utm_medium=mapframe&utm_source=maps&z=17.16"
+								style="color:#eee;font-size:12px;position:absolute;top:14px;"
+								>Улица Петрова, 12А — Яндекс Карты</a
+							><iframe
+								src="https://yandex.ru/map-widget/v1/?ll=47.923632%2C56.630940&mode=whatshere&whatshere%5Bpoint%5D=47.923503%2C56.631104&whatshere%5Bzoom%5D=17&z=17.16"
+								frameborder="1"
+								style="flex: 1 1 auto;"
+								title="Карта"
+							></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -132,7 +160,7 @@
 
 	.social-link {
 		padding: var(--spacing-xs) var(--spacing-md);
-		background-color: var(--color-primary);
+		background-color: transparent;
 		color: var(--color-white);
 		border-radius: var(--border-radius);
 		transition: background-color var(--transition-base);
@@ -151,17 +179,11 @@
 		background-color: var(--color-border);
 		border-radius: var(--border-radius);
 		display: flex;
-		flex-direction: column;
-		align-items: center;
 		justify-content: center;
 		color: var(--color-text-light);
 		min-height: 400px;
 		font-size: var(--font-size-lg);
-		padding: var(--spacing-xl);
-	}
-
-	.map-placeholder span {
-		margin-bottom: var(--spacing-md);
+		padding: var(--spacing-xs);
 	}
 
 	@media (max-width: 1024px) {

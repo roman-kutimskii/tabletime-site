@@ -392,5 +392,6 @@ video {
 	justify-content: center;
 	color: var(--color-text-light);
 	min-height: 200px;
+	overflow: hidden;
 }
 

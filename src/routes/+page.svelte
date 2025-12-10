@@ -14,12 +14,15 @@
 <section class="hero">
 	<div class="container">
 		<h1 class="hero-title">TableTime</h1>
-		<p class="hero-subtitle">
-			Современный сервис для онлайн-бронирования столиков в ресторанах
-		</p>
+		<p class="hero-subtitle">Современный сервис для онлайн-бронирования столиков в ресторанах</p>
 		<div class="hero-actions">
 			<a href={resolve('/services')} class="btn btn-primary">Узнать больше</a>
-			<a href={resolve('/contacts')} class="btn btn-outline">Связаться с нами</a>
+			<div
+				class="divider"
+				style="background-color: var(--color-white); border-radius: var(--border-radius);"
+			>
+				<a href={resolve('/contacts')} class="btn btn-outline">Связаться с нами</a>
+			</div>
 		</div>
 	</div>
 </section>
@@ -34,8 +37,8 @@
 				<div class="card-icon">📱</div>
 				<h3>Удобное бронирование</h3>
 				<p>
-					Клиенты могут легко найти свободные столики и забронировать их в несколько кликов
-					через веб-сайт или мобильное приложение.
+					Клиенты могут легко найти свободные столики и забронировать их в несколько кликов через
+					веб-сайт или мобильное приложение.
 				</p>
 			</div>
 			<div class="card">
@@ -76,7 +79,16 @@
 			</div>
 			<div class="content-media">
 				<div class="media-placeholder">
-					<span>Видео или изображение</span>
+					<video
+						src="/videos/tabletime-demo.mp4"
+						style="width: 100%; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);"
+						autoplay
+						muted
+						loop
+					>
+						<track kind="captions" />
+						Ваш браузер не поддерживает видео.
+					</video>
 				</div>
 			</div>
 		</div>
